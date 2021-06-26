@@ -1,0 +1,13 @@
+int addend[N];int main()
+{
+int i,j,n,m,sum;
+freopen("d:\1.txt","w",stdout);
+scanf("%d",&n);
+for(i=0;i<n;i++)
+scanf("%d",&addend[i]);
+scanf("%d",&m);
+for(i=0;i<n-m+1;i++)
+{
+sum = 0;
+for(j=0;j<m;j++)
+{
